@@ -1,0 +1,10 @@
+name: "Terraform Plan"
+
+on:
+  pull_request:
+
+env:
+  TF_CLOUD_ORGANIZATION: "devOps-learning-tutorial"
+  TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
+  TF_WORKSPACE: "learn-terraform-github-actions"
+  CONFIG_DIRECTORY: "/home/pooja/common-cloud-services/common-cloud-services/vpc"

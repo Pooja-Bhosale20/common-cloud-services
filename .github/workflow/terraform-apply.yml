@@ -3,7 +3,7 @@ name: "Terraform Apply"
 on:
   push:
     branches:
-      - main
+      - dev
 
 env:
   TF_CLOUD_ORGANIZATION: "devOps-learning-tutorial"
